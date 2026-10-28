@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #0e5774;
+  }
+}
+
+/* Custom scrollbars in brand color */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f7f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e5774;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #093c50;
+}
